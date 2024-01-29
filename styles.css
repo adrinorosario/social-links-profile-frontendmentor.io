@@ -1,0 +1,75 @@
+body {
+    background-color: hsl(0, 0%, 8%);
+}
+
+#social-card {
+    background-color: hsl(0, 0%, 12%);
+    width: 400px;
+    height: 650px;
+    position: relative;
+    top: 40px;
+    left: 500px;
+    margin: 0;
+    border-radius: 10px;
+}
+
+#profile-image > img{
+    border-radius: 50%;
+    margin-left: 27%;
+    margin-top: 20px;
+}
+
+#profile-name {
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    color: azure;
+    font-weight: 700;
+    margin-left: 22%;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+#user-location {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.7rem;
+    font-weight: 600;
+    color: hsl(75, 94%, 57%);
+    margin-left: 23%;
+    margin-top: 20px;
+}
+
+#profile-bio {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: hsl(0, 4%, 58%);
+    margin-left: 20%;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+#social-links {
+    display: block;
+    padding: 20px;
+    margin-left: 8%;
+    margin-top: 20px;
+}
+
+#social-links > button {
+    width: 90%;
+    background-color: hsl(0, 0%, 20%);
+    color:azure;
+    font-weight: 700;
+    padding: 10px;
+    margin-bottom: 15px;
+    text-align: center;
+    border-radius: 10px;
+    border-style: none;
+}
+
+.attribution {
+    color: white;
+    position: absolute;
+    margin-left: 40%;
+    bottom: 25px;
+}
